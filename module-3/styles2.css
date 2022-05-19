@@ -1,0 +1,97 @@
+body{
+    font-size: 16px;
+    font-family: 'Source Serif Pro', serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+.navbar-header button.navbar-toggle, .icon-bar{
+    border: 2px solid #000 !important;
+}
+
+#header-nav{
+    border: 2px solid #000;
+    background-color: #92bddf;
+    border-radius: 0;
+}
+
+.navbar-brand{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.navbar-nav{
+    margin: 0 -15px !important;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-brand h1{
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    margin-left: 10px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+#nav-list{
+    border: 1px solid;
+}
+#nav-list li{
+    background:#fff;
+    border-bottom: 2px solid;
+}
+#nav-list li a{
+    color:#000;
+    font-weight: 600;
+    line-height: 8px;
+}
+#nav-list:nth-child(3){
+    border-bottom: 0;
+}
+.menu{
+    margin: 15px;
+}
+.main-title{
+    font-weight: bold;
+    margin-top: -3px;
+    margin-bottom: 35px;
+}
+.menu-item{
+    padding:10px;
+    background: rgb(246, 162, 162);
+    margin-bottom:20px ;
+}
+.menu-item h4{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.menu-item p{
+    font-size: .9em;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-family: 'Source Serif Pro', serif;
+}
+@media (max-width:767px){
+    .navbar-brand:focus, .navbar-brand{
+      margin-left:10px;
+    }
+    .menu{
+      width: 80%;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom: 15px;
+    }
+    .menu-item p{
+      font-weight: 600;
+      font-size: 1em;
+      padding:5px 15px;
+    }
+  }
